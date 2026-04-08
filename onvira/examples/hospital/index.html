@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Medical Hospital - Healthcare Excellence</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-info">
+                <span><i class="fas fa-phone-alt"></i> Emergency: +1 (555) 911-0000</span>
+                <span><i class="fas fa-clock"></i> 24/7 Service</span>
+            </div>
+            <div class="top-links">
+                <a href="#"><i class="fas fa-user"></i> Patient Portal</a>
+                <a href="#"><i class="fas fa-user-md"></i> Staff Login</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-hospital-symbol"></i>
+                    <div class="logo-text">
+                        <span>Central Medical</span>
+                        <small>Hospital & Research Center</small>
+                    </div>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#appointment">Appointments</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#appointment" class="btn-appointment">
+                    <i class="fas fa-calendar-check"></i>
+                    Book Appointment
+                </a>
+                <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">
+                    <i class="fas fa-certificate"></i>
+                    JCI Accredited Hospital
+                </span>
+                <h1>Your Health Is Our <span class="highlight">Priority</span></h1>
+                <p>Providing world-class healthcare with compassion and cutting-edge medical technology. Your well-being is at the heart of everything we do.</p>
+                <div class="hero-buttons">
+                    <a href="#appointment" class="btn-primary">
+                        <i class="fas fa-calendar-plus"></i>
+                        Book Appointment
+                    </a>
+                    <a href="#services" class="btn-secondary">
+                        <i class="fas fa-stethoscope"></i>
+                        Our Services
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <i class="fas fa-user-md"></i>
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Expert Doctors</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-bed"></i>
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Hospital Beds</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-smile"></i>
+                    <span class="stat-number">10k+</span>
+                    <span class="stat-label">Happy Patients</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-award"></i>
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">What We Offer</span>
+                <h2>Our Medical Services</h2>
+                <p>Comprehensive healthcare services for you and your family</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Cardiology</h3>
+                    <p>Advanced cardiac care with state-of-the-art diagnostic and treatment facilities.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neurology</h3>
+                    <p>Expert neurological care for brain, spine, and nervous system conditions.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Orthopedics</h3>
+                    <p>Comprehensive bone and joint care including surgery and rehabilitation.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Pediatrics</h3>
+                    <p>Specialized healthcare for infants, children, and adolescents.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Ophthalmology</h3>
+                    <p>Complete eye care services from routine exams to advanced surgeries.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Dental Care</h3>
+                    <p>Full-service dental care including cosmetic and restorative procedures.</p>
+                    <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Banner -->
+    <section class="emergency-banner">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-icon">
+                    <i class="fas fa-ambulance"></i>
+                </div>
+                <div class="emergency-text">
+                    <h3>24/7 Emergency Services</h3>
+                    <p>Our emergency department is open round the clock with experienced trauma specialists.</p>
+                </div>
+                <a href="tel:+15559110000" class="btn-emergency">
+                    <i class="fas fa-phone-alt"></i>
+                    Call Emergency
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Our Team</span>
+                <h2>Meet Our Doctors</h2>
+                <p>Experienced medical professionals dedicated to your care</p>
+            </div>
+            <div class="doctors-grid">
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop" alt="Dr. James Wilson">
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. James Wilson</h3>
+                        <span class="specialty">Cardiologist</span>
+                        <span class="experience">15+ Years Experience</span>
+                        <button class="btn-book-doctor" onclick="bookDoctor('Dr. James Wilson')">
+                            <i class="fas fa-calendar-plus"></i> Book
+                        </button>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=400&fit=crop" alt="Dr. Sarah Martinez">
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Sarah Martinez</h3>
+                        <span class="specialty">Neurologist</span>
+                        <span class="experience">12+ Years Experience</span>
+                        <button class="btn-book-doctor" onclick="bookDoctor('Dr. Sarah Martinez')">
+                            <i class="fas fa-calendar-plus"></i> Book
+                        </button>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop" alt="Dr. Michael Chen">
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Michael Chen</h3>
+                        <span class="specialty">Orthopedic Surgeon</span>
+                        <span class="experience">18+ Years Experience</span>
+                        <button class="btn-book-doctor" onclick="bookDoctor('Dr. Michael Chen')">
+                            <i class="fas fa-calendar-plus"></i> Book
+                        </button>
+                    </div>
+                </div>
+                <div class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop" alt="Dr. Emily Johnson">
+                        <div class="doctor-social">
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="doctor-info">
+                        <h3>Dr. Emily Johnson</h3>
+                        <span class="specialty">Pediatrician</span>
+                        <span class="experience">10+ Years Experience</span>
+                        <button class="btn-book-doctor" onclick="bookDoctor('Dr. Emily Johnson')">
+                            <i class="fas fa-calendar-plus"></i> Book
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="appointment-grid">
+                <div class="appointment-info">
+                    <span class="subtitle">Book a Visit</span>
+                    <h2>Make an Appointment</h2>
+                    <p>Schedule your consultation with our expert doctors. We offer both in-person and telemedicine appointments.</p>
+                    <div class="appointment-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Easy online booking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Same-day appointments available</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Insurance accepted</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Telemedicine options</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment-form-wrapper">
+                    <form id="appointmentForm">
+                        <h3>Patient Information</h3>
+                        <div class="form-row">
+                            <input type="text" placeholder="First Name" required>
+                            <input type="text" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-row">
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-row">
+                            <select required>
+                                <option value="">Select Department</option>
+                                <option>Cardiology</option>
+                                <option>Neurology</option>
+                                <option>Orthopedics</option>
+                                <option>Pediatrics</option>
+                                <option>Ophthalmology</option>
+                                <option>Dental Care</option>
+                            </select>
+                            <select required>
+                                <option value="">Select Doctor</option>
+                                <option>Dr. James Wilson</option>
+                                <option>Dr. Sarah Martinez</option>
+                                <option>Dr. Michael Chen</option>
+                                <option>Dr. Emily Johnson</option>
+                                <option>Any Available</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <input type="date" required>
+                            <select required>
+                                <option value="">Preferred Time</option>
+                                <option>09:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>02:00 PM</option>
+                                <option>03:00 PM</option>
+                                <option>04:00 PM</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Describe your symptoms or reason for visit" rows="3"></textarea>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-calendar-check"></i>
+                            Confirm Appointment
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Our Departments</span>
+                <h2>Medical Departments</h2>
+            </div>
+            <div class="departments-grid">
+                <div class="dept-card">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400&h=250&fit=crop" alt="Emergency">
+                    <div class="dept-overlay">
+                        <i class="fas fa-ambulance"></i>
+                        <h3>Emergency Care</h3>
+                        <p>24/7 emergency services</p>
+                    </div>
+                </div>
+                <div class="dept-card">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=250&fit=crop" alt="ICU">
+                    <div class="dept-overlay">
+                        <i class="fas fa-procedures"></i>
+                        <h3>Intensive Care</h3>
+                        <p>Advanced ICU facilities</p>
+                    </div>
+                </div>
+                <div class="dept-card">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&h=250&fit=crop" alt="Laboratory">
+                    <div class="dept-overlay">
+                        <i class="fas fa-flask"></i>
+                        <h3>Laboratory</h3>
+                        <p>Modern diagnostic lab</p>
+                    </div>
+                </div>
+                <div class="dept-card">
+                    <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=400&h=250&fit=crop" alt="Radiology">
+                    <div class="dept-overlay">
+                        <i class="fas fa-x-ray"></i>
+                        <h3>Radiology</h3>
+                        <p>Imaging & diagnostics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="subtitle">Get in Touch</span>
+                    <h2>Contact Information</h2>
+                    <p>We're here to help. Reach out to us for any inquiries or assistance.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Medical Center Drive<br>Health City, HC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567<br>Emergency: +1 (555) 911-0000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@centralmedical.com<br>appointments@centralmedical.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Emergency: 24/7<br>Outpatient: Mon-Sat 8AM-8PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Interactive Map Would Be Here<br>Google Maps Integration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-hospital-symbol"></i>
+                        <div class="logo-text">
+                            <span>Central Medical</span>
+                            <small>Hospital & Research Center</small>
+                        </div>
+                    </a>
+                    <p>Providing exceptional healthcare services with compassion and cutting-edge technology.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#doctors">Doctors</a></li>
+                        <li><a href="#appointment">Appointments</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Emergency Care</a></li>
+                        <li><a href="#">Cardiology</a></li>
+                        <li><a href="#">Neurology</a></li>
+                        <li><a href="#">Orthopedics</a></li>
+                        <li><a href="#">Pediatrics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for health tips and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Central Medical Hospital. Demo website by Onvira.</p>
+                <p class="demo-notice">This is a demo website for demonstration purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

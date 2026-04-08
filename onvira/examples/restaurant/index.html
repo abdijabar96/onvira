@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista Restaurant - Fine Italian Dining</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍝</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-utensils"></i>
+                <span>Bella Vista</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reservation">Reservations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#reservation" class="btn-reserve">
+                <i class="fas fa-calendar-alt"></i>
+                Reserve Table
+            </a>
+            <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&h=900&fit=crop" alt="Restaurant Interior">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="subtitle">Welcome to</span>
+            <h1>Bella Vista</h1>
+            <p class="tagline">Authentic Italian Cuisine in an Elegant Atmosphere</p>
+            <p class="description">Experience the taste of Italy with our handcrafted dishes made from the finest ingredients, served in a warm and inviting setting.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">
+                    <i class="fas fa-book-open"></i>
+                    View Menu
+                </a>
+                <a href="#reservation" class="btn-secondary">
+                    <i class="fas fa-calendar-check"></i>
+                    Book a Table
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Bar -->
+    <section class="features-bar">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <span class="feature-title">Opening Hours</span>
+                        <span class="feature-text">Mon-Sun: 11AM - 11PM</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <span class="feature-title">Reservations</span>
+                        <span class="feature-text">+1 (555) 789-0123</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <span class="feature-title">Location</span>
+                        <span class="feature-text">123 Main Street, Downtown</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-award"></i>
+                    <div>
+                        <span class="feature-title">Award Winning</span>
+                        <span class="feature-text">Best Italian Restaurant 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="image-main">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=700&fit=crop" alt="Chef preparing food">
+                    </div>
+                    <div class="image-small">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=300&fit=crop" alt="Italian pasta">
+                        <div class="experience-badge">
+                            <span class="years">15</span>
+                            <span>Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2>A Culinary Journey to Italy</h2>
+                    <p>Founded in 2011, Bella Vista brings the authentic flavors of Italy to your table. Our recipes have been passed down through generations, preserving the traditional cooking methods that make Italian cuisine so beloved.</p>
+                    <p>Our executive chef, Marco Rossi, trained in the heart of Tuscany and brings over 20 years of culinary expertise to every dish. We use only the freshest ingredients, many imported directly from Italy.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Authentic Italian recipes</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Fresh, locally sourced ingredients</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Handmade pasta daily</span>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Extensive wine selection</span>
+                        </div>
+                    </div>
+                    <a href="#menu" class="btn-primary">
+                        Explore Our Menu
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Our Menu</span>
+                <h2>Authentic Italian Dishes</h2>
+                <p>From classic favorites to modern interpretations</p>
+            </div>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-category="appetizers">
+                    <i class="fas fa-bread-slice"></i> Appetizers
+                </button>
+                <button class="tab-btn" data-category="pasta">
+                    <i class="fas fa-utensils"></i> Pasta
+                </button>
+                <button class="tab-btn" data-category="mains">
+                    <i class="fas fa-drumstick-bite"></i> Main Course
+                </button>
+                <button class="tab-btn" data-category="desserts">
+                    <i class="fas fa-ice-cream"></i> Desserts
+                </button>
+                <button class="tab-btn" data-category="drinks">
+                    <i class="fas fa-wine-glass"></i> Drinks
+                </button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Appetizers -->
+                <div class="menu-category active" id="appetizers">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1541529086526-db283c563270?w=200&h=200&fit=crop" alt="Bruschetta">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Bruschetta Classica</h4>
+                                    <span class="price">$12</span>
+                                </div>
+                                <p>Grilled bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil</p>
+                                <button class="btn-order" onclick="addToOrder('Bruschetta Classica', 12)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=200&h=200&fit=crop" alt="Arancini">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Arancini Siciliani</h4>
+                                    <span class="price">$14</span>
+                                </div>
+                                <p>Crispy risotto balls filled with mozzarella and ragù, served with marinara sauce</p>
+                                <button class="btn-order" onclick="addToOrder('Arancini Siciliani', 14)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=200&h=200&fit=crop" alt="Caprese">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Insalata Caprese</h4>
+                                    <span class="price">$16</span>
+                                </div>
+                                <p>Fresh mozzarella, heirloom tomatoes, and basil drizzled with balsamic glaze</p>
+                                <button class="btn-order" onclick="addToOrder('Insalata Caprese', 16)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pasta -->
+                <div class="menu-category" id="pasta">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?w=200&h=200&fit=crop" alt="Carbonara">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Spaghetti Carbonara</h4>
+                                    <span class="price">$22</span>
+                                </div>
+                                <p>Classic Roman pasta with eggs, Pecorino Romano, guanciale, and black pepper</p>
+                                <button class="btn-order" onclick="addToOrder('Spaghetti Carbonara', 22)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1598866594230-a7c12756260f?w=200&h=200&fit=crop" alt="Lasagna">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Lasagna alla Bolognese</h4>
+                                    <span class="price">$24</span>
+                                </div>
+                                <p>Layers of fresh pasta with rich meat sauce, béchamel, and melted cheese</p>
+                                <button class="btn-order" onclick="addToOrder('Lasagna alla Bolognese', 24)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item featured">
+                            <div class="menu-badge">Chef's Special</div>
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&h=200&fit=crop" alt="Seafood Pasta">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Linguine ai Frutti di Mare</h4>
+                                    <span class="price">$32</span>
+                                </div>
+                                <p>Fresh pasta with mussels, clams, shrimp, and calamari in white wine sauce</p>
+                                <button class="btn-order" onclick="addToOrder('Linguine ai Frutti di Mare', 32)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="menu-category" id="mains">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?w=200&h=200&fit=crop" alt="Osso Buco">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Osso Buco alla Milanese</h4>
+                                    <span class="price">$38</span>
+                                </div>
+                                <p>Braised veal shanks in white wine and vegetable broth, served with risotto</p>
+                                <button class="btn-order" onclick="addToOrder('Osso Buco alla Milanese', 38)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=200&h=200&fit=crop" alt="Chicken Parm">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Pollo alla Parmigiana</h4>
+                                    <span class="price">$26</span>
+                                </div>
+                                <p>Breaded chicken breast topped with marinara and melted mozzarella</p>
+                                <button class="btn-order" onclick="addToOrder('Pollo alla Parmigiana', 26)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=200&fit=crop" alt="Steak">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Bistecca alla Fiorentina</h4>
+                                    <span class="price">$65</span>
+                                </div>
+                                <p>Grilled T-bone steak seasoned with rosemary and olive oil (for two)</p>
+                                <button class="btn-order" onclick="addToOrder('Bistecca alla Fiorentina', 65)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-category" id="desserts">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=200&h=200&fit=crop" alt="Tiramisu">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Tiramisu Classico</h4>
+                                    <span class="price">$12</span>
+                                </div>
+                                <p>Traditional coffee-soaked ladyfingers with mascarpone cream and cocoa</p>
+                                <button class="btn-order" onclick="addToOrder('Tiramisu Classico', 12)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=200&h=200&fit=crop" alt="Cannoli">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Cannoli Siciliani</h4>
+                                    <span class="price">$10</span>
+                                </div>
+                                <p>Crispy pastry shells filled with sweet ricotta and chocolate chips</p>
+                                <button class="btn-order" onclick="addToOrder('Cannoli Siciliani', 10)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=200&h=200&fit=crop" alt="Panna Cotta">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Panna Cotta</h4>
+                                    <span class="price">$11</span>
+                                </div>
+                                <p>Silky vanilla custard with fresh berry compote</p>
+                                <button class="btn-order" onclick="addToOrder('Panna Cotta', 11)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="menu-category" id="drinks">
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=200&h=200&fit=crop" alt="Cocktails">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Aperol Spritz</h4>
+                                    <span class="price">$14</span>
+                                </div>
+                                <p>The classic Italian aperitif with Aperol, Prosecco, and soda</p>
+                                <button class="btn-order" onclick="addToOrder('Aperol Spritz', 14)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1474722883778-792e7990302f?w=200&h=200&fit=crop" alt="Wine">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Chianti Classico</h4>
+                                    <span class="price">$12/glass</span>
+                                </div>
+                                <p>Full-bodied Tuscan red wine with notes of cherry and spice</p>
+                                <button class="btn-order" onclick="addToOrder('Chianti Classico', 12)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=200&h=200&fit=crop" alt="Espresso">
+                            </div>
+                            <div class="menu-item-info">
+                                <div class="menu-item-header">
+                                    <h4>Espresso Doppio</h4>
+                                    <span class="price">$5</span>
+                                </div>
+                                <p>Authentic Italian double espresso, rich and aromatic</p>
+                                <button class="btn-order" onclick="addToOrder('Espresso Doppio', 5)">
+                                    <i class="fas fa-plus"></i> Add
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Order Summary Demo -->
+            <div class="order-summary" id="orderSummary">
+                <h4><i class="fas fa-shopping-bag"></i> Your Order (Demo)</h4>
+                <div class="order-items" id="orderItems"></div>
+                <div class="order-total">
+                    <span>Total:</span>
+                    <span id="orderTotal">$0</span>
+                </div>
+                <button class="btn-checkout" onclick="checkout()">
+                    <i class="fas fa-credit-card"></i> Place Order (Demo)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-wrapper">
+                <div class="reservation-info">
+                    <span class="section-subtitle">Book a Table</span>
+                    <h2>Make a Reservation</h2>
+                    <p>Reserve your table for an unforgettable dining experience. For parties larger than 8, please call us directly.</p>
+                    <div class="contact-info-box">
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+1 (555) 789-0123</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>reservations@bellavista.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservation-form-wrapper">
+                    <form id="reservationForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Date</label>
+                                <input type="date" id="resDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Time</label>
+                                <select required>
+                                    <option value="">Select Time</option>
+                                    <option>11:00 AM</option>
+                                    <option>12:00 PM</option>
+                                    <option>1:00 PM</option>
+                                    <option>2:00 PM</option>
+                                    <option>5:00 PM</option>
+                                    <option>6:00 PM</option>
+                                    <option>7:00 PM</option>
+                                    <option>8:00 PM</option>
+                                    <option>9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Guests</label>
+                                <select required>
+                                    <option value="">Number of Guests</option>
+                                    <option>1 Person</option>
+                                    <option>2 People</option>
+                                    <option>3 People</option>
+                                    <option>4 People</option>
+                                    <option>5-6 People</option>
+                                    <option>7-8 People</option>
+                                    <option>8+ People</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Seating Preference</label>
+                                <select>
+                                    <option>No Preference</option>
+                                    <option>Indoor</option>
+                                    <option>Outdoor Patio</option>
+                                    <option>Private Room</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <textarea placeholder="Special Requests (allergies, occasions, etc.)" rows="3"></textarea>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-calendar-check"></i>
+                            Confirm Reservation
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Gallery</span>
+                <h2>Our Restaurant</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1559329007-40df51a5915b?w=800&h=600&fit=crop" alt="Restaurant interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=400&h=300&fit=crop" alt="Food">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop" alt="Wine">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop" alt="Dining">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=300&fit=crop" alt="Plating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-subtitle">Visit Us</span>
+                    <h2>Contact & Location</h2>
+                    <p>We'd love to hear from you. Reach out for reservations, catering, or just to say hello!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Main Street<br>Downtown, NY 10001</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 789-0123</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@bellavista.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <p>Interactive Map<br>Google Maps Integration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Bella Vista</span>
+                    </a>
+                    <p>Authentic Italian cuisine served with passion and tradition since 2011.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reservation">Reservations</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li><span>Monday - Thursday</span><span>11AM - 10PM</span></li>
+                        <li><span>Friday - Saturday</span><span>11AM - 11PM</span></li>
+                        <li><span>Sunday</span><span>12PM - 9PM</span></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for special offers and events</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bella Vista Restaurant. Demo website by Onvira.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
