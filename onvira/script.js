@@ -105,15 +105,26 @@ contactForm.addEventListener('submit', async (e) => {
     };
     
     try {
-        // Submit to Google Sheets
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxx5iR2ddSwenpLP3Vpzc-Z9U3Xi_EhMTBpeq-K_sb8VRDGEGJavGqoGjfj7gYETHk/exec', {
+        // Submit to Google Sheets using URL-encoded format (more reliable)
+        const formDataEncoded = new URLSearchParams();
+        formDataEncoded.append('name', formData.name);
+        formDataEncoded.append('email', formData.email);
+        formDataEncoded.append('phone', formData.phone);
+        formDataEncoded.append('service', formData.service);
+        formDataEncoded.append('message', formData.message);
+        formDataEncoded.append('timestamp', formData.timestamp);
+        
+        const response = await fetch('https://script.google.com/macros/s/AKfycbwSWaRr0p1NJ05Wj-rUKchkHOc9jzjk6FInJBCUfK6NPeuxTADT6qzXZisbUXqFYfl3hw/exec', {
             method: 'POST',
             mode: 'no-cors',
             headers: {
-                'Content-Type': 'application/json',
+                'Content-Type': 'application/x-www-form-urlencoded',
             },
-            body: JSON.stringify(formData)
+            body: formDataEncoded.toString()
         });
+        
+        // With no-cors, we can't check response status, so assume success after fetch completes
+        console.log('Form submitted successfully');
         
         // Show success message
         submitBtn.innerHTML = '<span>Message Sent!</span> <i class="fas fa-check"></i>';
@@ -130,7 +141,7 @@ contactForm.addEventListener('submit', async (e) => {
         }, 3000);
         
     } catch (error) {
-        console.error('Error:', error);
+        console.error('Submission error:', error);
         
         // Show error message
         submitBtn.innerHTML = '<span>Error! Try Again</span> <i class="fas fa-exclamation-circle"></i>';
